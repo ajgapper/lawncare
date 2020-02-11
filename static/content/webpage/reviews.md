@@ -1,13 +1,13 @@
 ---
 templateKey: webpage
 slug: pages/reviewselopment
-color: '#2B2C3E'
+color: "#2B2C3E"
 title: Web development Two
 category: Web development
 image": /images/adi-goldstein-EUsVwEOsblE-unsplash.jpg
 imagecredit: Photo by Artiom Vallat on Unsplash
 heading: Great coffee with a conscience
-sortorder: '4'
+sortorder: "4"
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -87,14 +87,16 @@ pricing:
         - One or two varieties of beans"
       plan: Web hosting
       price: £15/month
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+    - description:
+        "Great for avid drinkers, java-loving couples and bigger crowds"
       items:
         - 6 lbs of coffee per month
         - Green or roasted beans
         - Up to 4 different varieties of beans
       plan: Portfolio subscription
       price: £50/month
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+    - description:
+        Want a few tiny batches from different varieties? Try our custom plan
       items:
         - Whatever you need
         - Green or roasted beans
@@ -105,6 +107,11 @@ tags:
   - brewing
   - chemex
 ---
+
 ![chemex](/images/chemex.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+This week we’ll **take** a look at all the steps required to make astonishing
+coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over
+style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and
+which continues to be manufactured by the Chemex Corporation in Chicopee,
+Massachusetts.
