@@ -9,7 +9,7 @@ tags:
   - service
 ---
 
-Lawns Matter are an independent, family run business based in Oxfordshire.  
+Lawns Matter are an independent, family run business based in Oxfordshire.
 We are passionate about lawns and pride ourselves on giving the customer a
 bespoke service using the best products the market has to offer. We are City and
 Guilds trained and have a NPTC certification in the Safe use of Pesticides, we
