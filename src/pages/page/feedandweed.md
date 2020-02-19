@@ -23,7 +23,7 @@ also give it a blanket spray of a herbicide weed killer which will rid weeds or
 a moss control depending on what it needs. Its this time of the year where we
 may recommend having a scarification if required.
 
-Summer  
+Summer
 May to August With the growing season now underway we use a slow release
 fertiliser that will last 10 to 12 weeks which will keep your lawn looking its
 best. We then target any weeds using a different herbicide. We tend to spot
