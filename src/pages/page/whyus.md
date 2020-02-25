@@ -2,7 +2,7 @@
 templateKey: page
 menu: about
 slug: /about/whyus
-title: Why Us
+title: Why Us?
 featured: true
 featuredimage: /img/whyus.jpg
 featuredimage_alt: Photo by Lawns Matter on client site.
