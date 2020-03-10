@@ -1,10 +1,7 @@
 ---
 templateKey: siteinfo
-slug: /siteinfo/userTwittet
+slug: /siteinfo/userTwitter
 dataType: string
 value: lawnsmatter
-tags:
-  - service
-  - twitter
-  - social media
 ---
+
