@@ -41,4 +41,3 @@ providerMobility: mobile
 Service Type: Physical Service
 Slogan: Professional Lawn Care
 ---
-
