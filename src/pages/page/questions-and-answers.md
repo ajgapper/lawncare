@@ -9,4 +9,3 @@ featured: true
 featuredimage: /img/qanda.png
 featuredimage_alt: questions and answers banner
 ---
-
