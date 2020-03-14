@@ -11,6 +11,5 @@ quote: >-
   recommend.
 author: Sam Kelly
 reviewDate: 2019-10-10T19:48:24.442Z
-location: 'Banbury, Oxon'
+location: "Banbury, Oxon"
 ---
-
