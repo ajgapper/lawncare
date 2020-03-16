@@ -15,4 +15,3 @@ areaServed:
   placename: Area served
   radius: 15
 ---
-
