@@ -42,15 +42,15 @@ export default function BottomNavigationBar() {
       // className={classes.root}
     >
      <Container className={classes.bottomNavigation}  alignItems="space-between">
-    
+
       <BottomNavigationAction  icon={<InstagramLink />} />
       <BottomNavigationAction  icon={<EmailLink />} />
-      <BottomNavigationAction icon={<FacebookLink />} /> 
+      <BottomNavigationAction icon={<FacebookLink />} />
       <BottomNavigationAction  icon={<DeveloperLink />} />
       </Container>
 
-   </BottomNavigation>  
-  
+   </BottomNavigation>
+
 
   );
 }
