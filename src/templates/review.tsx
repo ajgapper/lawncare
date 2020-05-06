@@ -61,20 +61,20 @@ type PageProps = {
 
  <RaisedHeader  >
  <PageTitle  >
- <Container > 
+ <Container >
 
  <Title color={theme.palette.secondary.main }>{data.markdownRemark.frontmatter.title}</Title>
 
 </Container>
  </PageTitle>
-   
+
 
     <h4>  <Description style={descAnimation}>
     <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
 
-      </Description></h4> 
-      
-   
+      </Description></h4>
+
+
     <PBox style={{ textAlign: 'center' }} >
       <Link to="/contactus">
       <Button  aria-label="Link to contact us form" variant="contained" color="primary" margin="1rem" py={4} px={8}>
@@ -82,9 +82,9 @@ type PageProps = {
       </Button>
       </Link>
     </PBox>
-    
+
     </RaisedHeader>
-    </Container>  
+    </Container>
     </Container>
     </Content>
     </Layout>

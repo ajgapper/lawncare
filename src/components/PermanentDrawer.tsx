@@ -106,13 +106,13 @@ const PermanentDrawerLeft = ({ children, color }: PermanentDrawerLeftProps) => {
         anchor="left"
       >
          {/* <div className={classes.toolbar} /> */}
-    
+
         <Link to="/">
         <Container>
             <LogoLarge />
           </Container>
         </Link>
-       
+
         <Nav >
         {data.navigation.nodes.map(item => (
                   <PartialNavLink to={item.link} key={item.name}>
@@ -123,23 +123,23 @@ const PermanentDrawerLeft = ({ children, color }: PermanentDrawerLeftProps) => {
           <br />
           <br />
         <Divider />
-          
+
         <IconButtonBar />
 
             <Divider />
             <br />
-        <Nav href="https://www.gappsapps.co.uk" 
-        // className={gappsappsLogo} 
+        <Nav href="https://www.gappsapps.co.uk"
+        // className={gappsappsLogo}
         rel="nofollow">
             <ListItem button  aria-label="Link to the developer of this website Gappsapps" >
              <Gappsapps />
             </ListItem></Nav>
-           
+
       </Drawer>
-   
+
       </SideBarInner>
 
-  
+
     </div>
   );
 }

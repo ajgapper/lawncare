@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
         flexGrow: 0,
         backgroundColor: theme.palette.primary.main,
-      },  
+      },
     Footer: {
         display: 'flex',
         flexDirection: 'row',
@@ -41,7 +41,7 @@ export default function Footer() {
               <ListItemIcon><Gappsapps /></ListItemIcon>
             </ListItem></a>
             </ListItem>
-         
+
 <SocialIconButtonBar />
 
 

@@ -20,14 +20,14 @@ export class AreaServedMap extends Component {
     const position = [51.9806, -1.32055]
     if (typeof window !== 'undefined') {
       return (
-        <Map style={{ 
-          height: theme.leafletContainer.height, 
+        <Map style={{
+          height: theme.leafletContainer.height,
           width: "100%",
           zIndex: 2,
-          }} 
-          {...options} 
-          center={position} 
-          zoom={10} 
+          }}
+          {...options}
+          center={position}
+          zoom={10}
           >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -35,7 +35,7 @@ export class AreaServedMap extends Component {
         />
             <Circle center={position} label="attribution" fillColor="blue" radius={24140.2}  ><Popup>Area Served</Popup></Circle>
       </Map>
-    
+
       )
     }
     return null
@@ -45,7 +45,7 @@ export class AreaServedMap extends Component {
 type PageProps = {
   data: {
         id: string
-        html: markdown 
+        html: markdown
         frontmatter: {
           title: string
           templateKey: string
@@ -64,8 +64,8 @@ type PageProps = {
 
 
   const AreaServed = ({ data }) => {
- 
-   
+
+
   return (
     <div >
           <GlobalStyles />
@@ -75,20 +75,20 @@ type PageProps = {
         title={data.site.siteMetadata.title}
         desc={data.markdownRemark.html}
         node={data.markdownRemark.frontmatter.slug}
-  
+
        />
    <Helmet title={data.markdownRemark.frontmatter.title} />
    <Content bg={theme.palette.primary.main} >
      <AreaServedMap />
-    
+
      <Container  >
- 
+
                 <RaisedHeader   >
                   <PageTitle >{data.markdownRemark.frontmatter.title} </PageTitle>
                   <Description >
                   <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                   <ContactUsButton />
-               
+
                   </Description>
                 </RaisedHeader>
         </Container>

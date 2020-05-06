@@ -32,21 +32,21 @@ class RatingIndex extends React.Component {
 
     return (
 
-    
-   
+
+
         <List>
         {ratings &&
           ratings.map(({ node: rating }) => (
 
          <Link key={rating.frontmatter.slug} to={rating.frontmatter.slug} aria-label={`View our ratings "${rating.frontmatter.title}"`}>
          <h6> {rating.frontmatter.title} - {rating.frontmatter.rating} Star rating</h6>
-       
-         
+
+
           </Link>
-         
+
           ))}
       </List>
-      
+
     )
   }
 }
@@ -74,7 +74,7 @@ export default () => (
          }
       }
     }
-    
+
     `}
     render={(data, count) => <RatingIndex data={data} count={count} />}
   />

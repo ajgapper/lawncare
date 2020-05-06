@@ -32,21 +32,21 @@ class ReviewIndex extends React.Component {
 
     return (
 
-    
-   
+
+
         <List>
         {reviews &&
           reviews.map(({ node: review }) => (
 
          <Link key={review.frontmatter.slug} to={review.frontmatter.slug} aria-label={`View our lastest news "${review.frontmatter.title}"`}>
          <h6> {review.excerpt} {review.frontmatter.title} - {review.frontmatter.location}</h6>
-       
-         
+
+
           </Link>
-         
+
           ))}
       </List>
-      
+
     )
   }
 }
@@ -76,7 +76,7 @@ export default () => (
          }
       }
     }
-    
+
     `}
     render={(data) => <ReviewIndex data={data}  />}
   />

@@ -13,7 +13,3 @@ const HeaderImageContainer = styled(Container)`
   }
 `
 export default HeaderImageContainer
-
-
-
-

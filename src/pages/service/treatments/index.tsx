@@ -48,9 +48,9 @@ type PageProps = {
         <PageTitle>{data.markdownRemark.frontmatter.title}</PageTitle>
           <Description >
             <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-       
+
             <TreatmentIndex />
-           
+
           </Description>
         </RaisedHeader>
      </Content>
@@ -63,7 +63,7 @@ type PageProps = {
 export default TreatmentHeaderPage
 
 export const query = graphql`query TreatmentHeaderPage {
- 
+
   site {
     siteMetadata {
       title

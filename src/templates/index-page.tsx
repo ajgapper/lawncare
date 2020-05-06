@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
 }) => (
 
   <div>
- 
+
 
     <SEO  pathname={slug}
         title={title}
@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
         />
     <Helmet title={title} />
      <Content bg={theme.palette.primary.main} >
-   
+
      <HeaderImage backgroundImage={featuredimage.childImageSharp.fluid} />
      <Container>
             <RaisedHeader >
@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
                         <div dangerouslySetInnerHTML={{ __html: html }} />
                         <BlogIndex />
                       </Description>
-                </RaisedHeader> 
+                </RaisedHeader>
         </Container>
       </Content>
 

@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: theme.palette.primary.main,
       backgroundColor: theme.palette.primary.main,
       boxShadow: "6px 6px 10px 0px rgb(47, 54, 68, 0.4)",
-    }, 
+    },
     drawer: {
       [theme.breakpoints.up('sm')]: {
 
@@ -52,53 +52,53 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function ElevateAppBar(props: Props) {
   const classes = useStyles();
- 
+
 
   return (
     <div className={classes.root}>
           <Container
 
       >
-        <AppBar 
+        <AppBar
           className={classes.drawerPaper}
           backgroundColor={theme.palette.primary.main}
           position="fixed">
           {/* <Toolbar
           backgroundColor={theme.palette.primary.main}
           className={classes.drawer}
-          variant="permanent"  
-          anchor="top" 
-          alignItems="space-between" 
-    
-     
+          variant="permanent"
+          anchor="top"
+          alignItems="space-between"
+
+
           > */}
-                
-            <Grid container position="relative"  alignItems="flex-end"  justifyItems="center" >  
-                <Grid item xs={1} /> 
+
+            <Grid container position="relative"  alignItems="flex-end"  justifyItems="center" >
+                <Grid item xs={1} />
                 <Grid item xs={2} >
                   <SimpleMenu />
-                </Grid>   
-                <Grid item xs={1} /> 
+                </Grid>
+                <Grid item xs={1} />
                 <Grid item xs={4}>
                   <Link to="/">
                       <LogoSmall />
                   </Link>
-                </Grid>     
-                <Grid item xs={1} /> 
+                </Grid>
+                <Grid item xs={1} />
                 <Grid item xs={2} >
                   <a href={`tel:${<PhoneNo />}`} rel="nofollow">
                     {/* <CallButton /> */}
                     <PhoneButton />
                   </a>
-                </Grid>   
-                <Grid item xs={1} /> 
+                </Grid>
+                <Grid item xs={1} />
               <Divider />
             </Grid>
           {/* </Toolbar> */}
-        </AppBar> 
+        </AppBar>
         </Container>
-  
-  
+
+
     </div>
   );
 }

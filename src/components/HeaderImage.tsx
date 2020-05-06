@@ -3,18 +3,18 @@ import PropTypes from 'prop-types'
 import HeaderContainer from '../styles/headerContainerStyle'
 import Img from "gatsby-image"
 
-const HeaderImage = ({ backgroundImage }) => (  
+const HeaderImage = ({ backgroundImage }) => (
 
 
-          <Img 
+          <Img
               fluid={backgroundImage}
               backgroundAttachment='relative'
               backgroundPosition='center'
               backgroundSize='cover'
                 >
             <HeaderContainer />
-          </Img> 
- 
+          </Img>
+
 
 
 )
@@ -24,4 +24,3 @@ HeaderImage.propTypes = {
 }
 
 export default HeaderImage
-

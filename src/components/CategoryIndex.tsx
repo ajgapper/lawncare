@@ -38,21 +38,21 @@ class CategoryIndex extends React.Component {
 
     return (
 
-    
-   
+
+
         <Area>
         {categories &&
           categories.map(({ node: category}) => (
 
          <Link key={category.group.fieldValue} to={category.group.fieldValue} aria-label={`Category "${category.group.fieldValue}"`}>
-                      
+
             <span><h5>{category.group.fieldValue} - {category.group.totalCount}</h5></span>
-     
+
           </Link>
-         
+
           ))}
       </Area>
-      
+
     )
   }
 }
@@ -73,7 +73,7 @@ export default () => (
         }
       }
     }
-    
+
     `}
     render={(data, count) => <CategoryIndex data={data} count={count} />}
   />

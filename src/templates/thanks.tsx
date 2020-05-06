@@ -29,7 +29,7 @@ export const ThanksPageTemplate = ({
                     <PageTitle>{title}</PageTitle>
                         <Description>
                           <div dangerouslySetInnerHTML={{ __html: html }} />
-                          <ThanksIndex />  
+                          <ThanksIndex />
                         </Description>
                   </RaisedHeader>
         </Container>

@@ -32,8 +32,8 @@ class ThanksIndex extends React.Component {
 
     return (
 
-    
-   
+
+
         <List>
         {reviews &&
           reviews.map(({ node: review }) => (
@@ -41,10 +41,10 @@ class ThanksIndex extends React.Component {
          <Link key={review.frontmatter.slug} to={review.frontmatter.slug} aria-label={`Thanks for the "${review.frontmatter.alt}"`}>
          <h6> Thanks for the {review.frontmatter.alt} used on the page entitled {review.frontmatter.title}.</h6>
           </Link>
-         
+
           ))}
       </List>
-      
+
     )
   }
 }
@@ -70,7 +70,7 @@ export default () => (
           }
         }
       }
-    
+
     `}
     render={(data) => <ThanksIndex data={data}  />}
   />

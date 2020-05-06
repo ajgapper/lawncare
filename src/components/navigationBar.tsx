@@ -31,30 +31,30 @@ export default function NavigationBar() {
 <div><Container className={classes.NavigationBar} alignItems="space-between">
 
 <ListItem button >  <Link to="/"><Container  alignItems="center">
-<Button       
+<Button
         variant="contained"
         color="white"
         className={classes.button}
         aria-label="Link to Home page"
         startIcon={<HomeIcon alignItems="center" />}>
-          
+
 
 </Button>
 </Container>
           </Link>  </ListItem>
-            <ListItem button ><Container alignItems="center" > <Button       
+            <ListItem button ><Container alignItems="center" > <Button
         variant="outlined"
         color="white"
         aria-label="Menu Button"
         className={classes.button}
         startIcon={<SimpleMenu alignItems="center" />}>
-          
+
 
 </Button> </Container></ListItem>
 
-           
+
 <ListItem><Container alignItems="center" ><a href={`tel:${<PhoneNo />}`} rel="nofollow">
-  <Button       
+  <Button
         variant="contained"
         color={theme.palette.secondary.main}
         aria-label="Call us"
@@ -63,7 +63,6 @@ export default function NavigationBar() {
         padding={theme.typography.h4.fontSize} >
           Call
           </Button> </a></Container></ListItem>
-  
+
 </Container></div>
     )}
-

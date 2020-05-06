@@ -34,7 +34,7 @@ export const CategoriesPageTemplate = ({
             <PageTitle >{title}</PageTitle>
             <Description >
               <div dangerouslySetInnerHTML={{ __html: html }} />
-            
+
                   <CategoryIndex />
               </Description>
             </RaisedHeader>
@@ -54,7 +54,7 @@ CategoriesPageTemplate.propTypes = {
 }
 
 const CategoriesPage = ({ data }) => {
- 
+
 
   return (
     <Layout>
@@ -106,6 +106,6 @@ export const pageQuery = graphql`
      }
    }
  }
- 
-  
+
+
 `

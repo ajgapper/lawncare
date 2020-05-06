@@ -99,19 +99,19 @@ const SimpleMenu = ({ children, color }: SimpleMenuProps) =>  {
       <GlobalStyles />
       <Nav>
       <div padding="1rem" >
-      <Button  
+      <Button
       color="default"
-      size="large" 
-      aria-label="Menu Button" 
-      aria-controls="simple-menu" 
-      aria-haspopup="true"  
-      padding="1rem" 
-      className={classes.button} 
-      onClick={handleClick} 
-      > 
+      size="large"
+      aria-label="Menu Button"
+      aria-controls="simple-menu"
+      aria-haspopup="true"
+      padding="1rem"
+      className={classes.button}
+      onClick={handleClick}
+      >
      Menu
       </Button>
-     
+
 
       <Menu
         // id="simple-menu"

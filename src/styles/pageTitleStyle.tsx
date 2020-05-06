@@ -6,7 +6,7 @@ const PageTitle = styled(Container)`
 width: 70%;
 text-transform: none;
 padding: 2rem;
-color: ${theme.palette.primary.contrastText}; 
+color: ${theme.palette.primary.contrastText};
 font-size: ${theme.typography.h4.fontSize};
 font-weight: ${theme.typography.h4.fontWeight};
 background-color: ${theme.palette.primary.main};
@@ -18,5 +18,5 @@ PageTilePlain: {
   marginRight: "0px"
 },
 
-` 
+`
 export default PageTitle

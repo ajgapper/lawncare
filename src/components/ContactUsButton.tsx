@@ -11,6 +11,6 @@ const ContactUsButton = () => (
       </Button>
       </Link>
     </PBox>
-  )             
-             
+  )
+
 export default ContactUsButton

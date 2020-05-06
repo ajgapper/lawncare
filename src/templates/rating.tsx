@@ -40,10 +40,10 @@ export const RatingPageTemplate = ({
                           starDimension="40px"
                           starSpacing="15px"
                           starRatedColor="FFD700"
-                        />  
+                        />
                      </PageTitle>
-                  
-            
+
+
                   </RaisedHeader>
         </Container>
       </Content>

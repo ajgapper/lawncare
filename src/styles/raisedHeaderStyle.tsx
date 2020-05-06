@@ -16,7 +16,7 @@ const RaisedHeader = styled(Container)`
   flexDirection: column
   minWidth: 0;
   wordWrap: break-word;
-  transition: all 300ms linear ; 
+  transition: all 300ms linear ;
   lineHeight: 1;
   a {
     transition: all 0.3s ease-in-out;

@@ -49,9 +49,9 @@ type PageProps = {
         <PageTitle>{data.markdownRemark.frontmatter.title}</PageTitle>
           <Description >
             <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-       
+
             <ServiceCatalog />
-           
+
           </Description>
         </RaisedHeader>
      </Content>

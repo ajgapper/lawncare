@@ -73,8 +73,8 @@ const Area = styled(animated.div)`
 
     const HeaderIndex = ({ data, posts }) => {
       const imageData = data.markdownRemark.frontmatter.featuredimage.childImageSharp.fluid
-    
-      return  (  
+
+      return  (
 <Layout>
     <SEO  pathname={data.markdownRemark.slug}
         title={data.markdownRemark.title}
@@ -167,5 +167,3 @@ export const query = graphql`
       }
     }
     `
-
-

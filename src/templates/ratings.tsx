@@ -34,7 +34,7 @@ export const RatingsPageTemplate = ({
                     <PageTitle>{title}</PageTitle>
                         <Description>
                           <div dangerouslySetInnerHTML={{ __html: html }} />
-                          <RatingIndex />  
+                          <RatingIndex />
                         </Description>
                   </RaisedHeader>
         </Container>

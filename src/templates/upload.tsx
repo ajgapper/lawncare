@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const TextInputField = styled(TextField)`
   variant: outlined;
-  color: ${theme.palette.primary.contrastText}; 
+  color: ${theme.palette.primary.contrastText};
 `
 
 const InputField = withStyles({
@@ -55,7 +55,7 @@ type PageProps = {
   data: {
         id: string
         excerpt: string
-        html: markdown 
+        html: markdown
         frontmatter: {
           title: string
           templateKey: string
@@ -71,8 +71,8 @@ type PageProps = {
      const Upload = ({ data }) => {
       const classes = useStyles();
       const imageData = data.markdownRemark.frontmatter.featuredimage.childImageSharp.fluid
-      return ( 
-      
+      return (
+
      <Layout color={theme.palette.primary.main}>
       <SEO
         pathname={data.markdownRemark.frontmatter.slug}
@@ -80,7 +80,7 @@ type PageProps = {
         node={data.markdownRemark.frontmatter.parent}
         banner={imageData}
       />
-     
+
      <Helmet title={data.markdownRemark.title} />
       <Content bg={theme.palette.primary.main} >
         <HeaderImage backgroundImage={imageData} />
@@ -90,8 +90,8 @@ type PageProps = {
             <PageTitle >{data.markdownRemark.frontmatter.title}</PageTitle>
             <Description >
               <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-            <Uploader />  
-            </Description>      
+            <Uploader />
+            </Description>
           </RaisedHeader>
         </Container>
       </Content>
@@ -103,9 +103,9 @@ export default Upload
 
 export const query = graphql`
 
-  query Upload  { 
+  query Upload  {
  markdownRemark(frontmatter: {templateKey: {eq: "upload"}})  {
-  html  
+  html
   frontmatter {
       slug
       title
