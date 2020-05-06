@@ -1,5 +1,5 @@
-import React from "react"
 import PropTypes from "prop-types"
+import React from "react"
 
 export default function HTML(props) {
   return (
@@ -8,7 +8,7 @@ export default function HTML(props) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
-          name="viewport"
+  name = "viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
@@ -29,10 +29,10 @@ export default function HTML(props) {
 }
 
 HTML.propTypes = {
-  htmlAttributes: PropTypes.object,
-  headComponents: PropTypes.array,
-  bodyAttributes: PropTypes.object,
-  preBodyComponents: PropTypes.array,
-  body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
+  htmlAttributes : PropTypes.object,
+  headComponents : PropTypes.array,
+  bodyAttributes : PropTypes.object,
+  preBodyComponents : PropTypes.array,
+  body : PropTypes.string,
+  postBodyComponents : PropTypes.array,
 }
