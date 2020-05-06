@@ -7,8 +7,7 @@ title: Aynho
 featuredimage: /img/aynho.jpeg
 alt: Results of our lawn care service in Aynho
 categories:
-- project
+  - project
 ---
+
 These are the results of our lawn care service at a client in Aynho
-
-

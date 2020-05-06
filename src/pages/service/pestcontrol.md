@@ -10,4 +10,5 @@ categories:
   - service
 ---
 
-We provide all necessary pest control sevices that are required to deal with any lawn infestation by pests. 
+We provide all necessary pest control sevices that are required to deal with any
+lawn infestation by pests.

@@ -7,8 +7,7 @@ title: Bodicote
 featuredimage: /img/bodicote.jpg
 alt: Results of our lawn care service in Bodicote
 categories:
-- project
+  - project
 ---
-These are the results of our Lawn care in Bodicote 
 
-
+These are the results of our Lawn care in Bodicote

@@ -10,4 +10,6 @@ categories:
   - faq
 ---
 
-Yes. If you recommend us to a friend, neighbour or relative and they subsequently use our service, then you will be given a £10 discount on your next invoice.
+Yes. If you recommend us to a friend, neighbour or relative and they
+subsequently use our service, then you will be given a £10 discount on your next
+invoice.

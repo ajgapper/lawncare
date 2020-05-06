@@ -7,8 +7,7 @@ title: Longworth
 featuredimage: /img/longworth.jpg
 alt: Results of our lawn care service in Longworth
 categories:
-- project
+  - project
 ---
+
 These are the results of our lawn care service at a client in Longworth
-
-

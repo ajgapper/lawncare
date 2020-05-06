@@ -11,4 +11,6 @@ categories:
   - service
   - about
 ---
-We provide a free lawn care assessment to potential customers that live within 15 miles of Deddington.
+
+We provide a free lawn care assessment to potential customers that live within
+15 miles of Deddington.

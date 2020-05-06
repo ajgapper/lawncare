@@ -12,5 +12,6 @@ categories:
 created_time: "2018-06-15T18:41:28+0000"
 recommendation_type_positive: true
 ---
-"Highly Recommend, Very Professional. We are very pleased with the results so far!"
 
+"Highly Recommend, Very Professional. We are very pleased with the results so
+far!"

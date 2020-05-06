@@ -10,4 +10,5 @@ categories:
   - faq
 ---
 
-Contact us to arrange a date and time to suit you, and we can give you a detailed no obligation quotation and report. It is then up to you.
+Contact us to arrange a date and time to suit you, and we can give you a
+detailed no obligation quotation and report. It is then up to you.

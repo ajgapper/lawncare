@@ -1,7 +1,7 @@
 ---
 templateKey: rating
-slug: /rating/sallyshepley 
-title: Sally Shepley 
+slug: /rating/sallyshepley
+title: Sally Shepley
 visible: true
 featured: false
 featuredimage: /img/oleksandra-bardash-AlJg9kPvOJ4-unsplash_cropped.jpg

@@ -10,4 +10,6 @@ categories:
   - faq
 ---
 
-The lawn needs to cut between 1.5 inches and 2 inches regularly with lawnmower which has a sharp blade.   For best results the lawn shouldn’t be cut 2 days before and after a treatment.
+The lawn needs to cut between 1.5 inches and 2 inches regularly with lawnmower
+which has a sharp blade. For best results the lawn shouldn’t be cut 2 days
+before and after a treatment.

@@ -12,5 +12,3 @@ created_time: "2018-03-29T19:38:59+0000"
 rating: 5
 recommendation_type_positive: true
 ---
-
-

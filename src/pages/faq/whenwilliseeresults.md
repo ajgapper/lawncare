@@ -10,4 +10,5 @@ categories:
   - faq
 ---
 
-You will see an improvement in just 10 days providing the weather conditions are right.
+You will see an improvement in just 10 days providing the weather conditions are
+right.

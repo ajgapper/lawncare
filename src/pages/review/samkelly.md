@@ -12,4 +12,7 @@ categories:
 created_time: "2019-10-25T07:30:22+0000"
 recommendation_type_positive: true
 ---
-"Lawn treatments that are kind on nature. No harsh chemicals whenever possible and lawn came up rich lush green. Moss treatment excellent too. Local, friendly always punctual, quick and independent. Very affordable too. Highly recommend."
+
+"Lawn treatments that are kind on nature. No harsh chemicals whenever possible
+and lawn came up rich lush green. Moss treatment excellent too. Local, friendly
+always punctual, quick and independent. Very affordable too. Highly recommend."
