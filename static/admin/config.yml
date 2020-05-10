@@ -11,74 +11,187 @@ media_folder: static/img
 public_folder: /img
 publish_mode: editorial_workflow
 collections:
-  - name: page      
+  - name: page
     label: Page
     folder: "src/pages/{{templateKey}}"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Template Key", name: templateKey,  widget: "select", options: ["page", "faq", "review", "service", "treatments", "project"], default: page }
-      - { label: "Sort order", required: false, name: sortorder, widget: number, min: 1, step: 1, default: 100 }
+      - {
+          label: "Template Key",
+          name: templateKey,
+          widget: "select",
+          options:
+            ["page", "faq", "review", "service", "treatments", "project"],
+          default: page,
+        }
+      - {
+          label: "Sort order",
+          required: false,
+          name: sortorder,
+          widget: number,
+          min: 1,
+          step: 1,
+          default: 100,
+        }
       - { label: Path, name: slug, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Featured, required: false, name: featured, widget: boolean }
       - { label: Visible, required: false, name: visible, widget: boolean }
       - { label: Header, required: false, name: header, widget: boolean }
       - { label: Image, name: featuredimage, widget: image }
-      - { label: "Image description (needed for SEO)", name: alt, widget: string }
+      - {
+          label: "Image description (needed for SEO)",
+          name: alt,
+          widget: string,
+        }
       - { label: "Main content", required: false, name: body, widget: markdown }
       - { label: category, required: false, name: category, widget: list }
       - { label: Location, required: false, name: locationName, widget: string }
-      - { label: created_time,  required: false, name: created_time, widget: datetime, dateFormat: "MMMM YYYY" }
+      - {
+          label: created_time,
+          required: false,
+          name: created_time,
+          widget: datetime,
+          dateFormat: "MMMM YYYY",
+        }
   - name: areaserved
     label: Area Served
-    files: 
+    files:
       - file: src/pages/service/areaserved.md
         label: Area Served Map
-        name: areaserved       
+        name: areaserved
         slug: "{{slug}}"
         fields:
-          - { label: "Template Key", name: templateKey, widget: hidden, default: map }
+          - {
+              label: "Template Key",
+              name: templateKey,
+              widget: hidden,
+              default: map,
+            }
           - { label: title, name: title, widget: string }
-          - { label: "Radius in metres", required: true, name: radius, widget: number,  valueType: float }
-          - { label: Longitude, required: true, name: longitude, widget: number,  valueType: float }
-          - { label: Latitude, required: true, name: latitude, widget: number,  valueType: float }
-          - { label: Zoom, required: true, name: zoom, widget: number,  valueType: int,  default: 10 }
-          - { label: Featured, required: false, name: featured, widget: boolean }
+          - {
+              label: "Radius in metres",
+              required: true,
+              name: radius,
+              widget: number,
+              valueType: float,
+            }
+          - {
+              label: Longitude,
+              required: true,
+              name: longitude,
+              widget: number,
+              valueType: float,
+            }
+          - {
+              label: Latitude,
+              required: true,
+              name: latitude,
+              widget: number,
+              valueType: float,
+            }
+          - {
+              label: Zoom,
+              required: true,
+              name: zoom,
+              widget: number,
+              valueType: int,
+              default: 10,
+            }
+          - {
+              label: Featured,
+              required: false,
+              name: featured,
+              widget: boolean,
+            }
           - { label: Visible, required: false, name: visible, widget: boolean }
           - { label: Header, required: false, name: header, widget: boolean }
-          - { label: Path, name: slug, widget: string, default: "/service/areaserved" }
-          - { label: Featured, required: false, name: featured, widget: boolean }
-          - { label: "Main content", required: false, name: body, widget: markdown }
+          - {
+              label: Path,
+              name: slug,
+              widget: string,
+              default: "/service/areaserved",
+            }
+          - {
+              label: Featured,
+              required: false,
+              name: featured,
+              widget: boolean,
+            }
+          - {
+              label: "Main content",
+              required: false,
+              name: body,
+              widget: markdown,
+            }
           - { label: category, required: false, name: category, widget: list }
   - name: index
     label: "Home page"
-    files: 
+    files:
       - file: src/pages/index.md
         label: Home page
-        name: index       
+        name: index
         slug: "{{slug}}"
         fields:
-          - { label: "Template Key", name: templateKey, widget: hidden, default: index-page }
-          - { label: slug, name: slug, widget: string }          
-          - { label: title, required: false, name: title, widget: string }      
+          - {
+              label: "Template Key",
+              name: templateKey,
+              widget: hidden,
+              default: index-page,
+            }
+          - { label: slug, name: slug, widget: string }
+          - { label: title, required: false, name: title, widget: string }
           - { label: Body, required: false, name: body, widget: markdown }
-          - { label: Image, required: false, name: featuredimage, widget: image }
-          - { label: "Image description (needed for SEO)", required: false, name: alt, widget: string }
+          - {
+              label: Image,
+              required: false,
+              name: featuredimage,
+              widget: image,
+            }
+          - {
+              label: "Image description (needed for SEO)",
+              required: false,
+              name: alt,
+              widget: string,
+            }
   - name: headers
     label: "Section header"
     folder: src/pages
     create: true
     slug: "{{slug }}"
     fields:
-      - { label: "Template Key", name: templateKey, widget: hidden, default: header }
+      - {
+          label: "Template Key",
+          name: templateKey,
+          widget: hidden,
+          default: header,
+        }
       - { label: slug, name: slug, widget: string }
-      - { label: sortorder, required: false, name: sortorder, widget: number, min: 1, step: 1, default: 100 }
+      - {
+          label: sortorder,
+          required: false,
+          name: sortorder,
+          widget: number,
+          min: 1,
+          step: 1,
+          default: 100,
+        }
       - { label: title, name: title, widget: string }
       - { label: Featured, required: false, name: featured, widget: boolean }
       - { label: Visible, required: false, name: visible, widget: boolean }
       - { label: Header, required: false, name: header, widget: boolean }
-      - { label: featuredImage, required: false, name: featuredimage, widget: image }
-      - { label: "Image description (needed for SEO)", required: false, name: alt, widget: string }
+      - {
+          label: featuredImage,
+          required: false,
+          name: featuredimage,
+          widget: image,
+        }
+      - {
+          label: "Image description (needed for SEO)",
+          required: false,
+          name: alt,
+          widget: string,
+        }
       - { label: Category, required: false, name: category, widget: list }
       - { label: Body, required: false, name: body, widget: markdown }
