@@ -11,4 +11,6 @@ alt: photo by Ochir Erdene Oyunmedeg on Unsplash
 category:
   - header
 ---
-If you would like further information about Lawns Mattter, you can explore the categories below...
+
+If you would like further information about Lawns Mattter, you can explore the
+categories below...

@@ -11,6 +11,5 @@ alt: Results of our lawn care service in Church Enstone
 category:
   - project
 ---
+
 These are the results of our lawn care service at a client in Church Enstone.
-
-

@@ -11,6 +11,5 @@ alt: Results of our lawn care service in Brackley
 category:
   - project
 ---
+
 These are the results of our lawn care service at a client in Brackley.
-
-

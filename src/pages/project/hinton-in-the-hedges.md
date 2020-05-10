@@ -11,6 +11,6 @@ alt: Results of our lawn care service in Hinton-in-the-Hedges
 category:
   - project
 ---
-These are the results of our lawn care service at a client in Hinton-in-the-hedges
 
-
+These are the results of our lawn care service at a client in
+Hinton-in-the-hedges

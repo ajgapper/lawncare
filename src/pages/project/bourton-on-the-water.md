@@ -11,6 +11,6 @@ alt: Results of our lawn care service in Bourton-on-the-Water
 category:
   - project
 ---
-These are the results of our lawn care service at a client in Bourton-on-the-Water.
 
-
+These are the results of our lawn care service at a client in
+Bourton-on-the-Water.

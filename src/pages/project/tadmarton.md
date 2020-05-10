@@ -5,10 +5,11 @@ sortorder: 1320
 visible: true
 header: false
 featured: false
-title: Tadmarton 
+title: Tadmarton
 featuredimage: /img/tadmarton.jpg
 alt: Tadmarton After photo
 category:
   - project
 ---
+
 These are the results of our lawn care service at a client in Tadmarton.

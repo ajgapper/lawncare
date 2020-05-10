@@ -11,6 +11,5 @@ alt: Results of our lawn care service in Southmoor
 category:
   - project
 ---
+
 These are the results of our lawn care service at a client in Southmoor
-
-

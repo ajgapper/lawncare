@@ -11,6 +11,5 @@ alt: Results of our lawn care service in Bodicote
 category:
   - project
 ---
+
 These are the results of our Lawn care in Bodicote.
-
-

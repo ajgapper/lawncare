@@ -13,4 +13,6 @@ category:
   - about
   - service
 ---
-Lawns Matter are based in Oxfordshire and provide a lawn care service to customers that are based within 15 miles of Deddington. 
+
+Lawns Matter are based in Oxfordshire and provide a lawn care service to
+customers that are based within 15 miles of Deddington.
