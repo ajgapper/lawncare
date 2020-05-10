@@ -18,14 +18,14 @@ const SimpleMenu = ({ children, color }: SimpleMenuProps) =>  {
   return (
 
 <div>
-    <Button  
-        size="large" 
-        aria-label="Menu" 
-        aria-controls="simple-menu" 
-        aria-haspopup="true"  
-        padding="1rem" 
-        onClick={handleClick} 
-        style={{ 
+    <Button
+        size="large"
+        aria-label="Menu"
+        aria-controls="simple-menu"
+        aria-haspopup="true"
+        padding="1rem"
+        onClick={handleClick}
+        style={{
             color: theme.palette.secondary.main,
           }} >
 
@@ -33,8 +33,8 @@ const SimpleMenu = ({ children, color }: SimpleMenuProps) =>  {
       <br />
       Menu</a>
       </Button>
-  
-      
+
+
       <Popover
 
         anchorEl={anchorEl}
@@ -55,23 +55,23 @@ const SimpleMenu = ({ children, color }: SimpleMenuProps) =>  {
         keepMounted
         open={Boolean(anchorEl)}
         onClose={handleClose}
-        
+
       >
-        
+
       <MenuStyle>
            <MenuOptions />
       </MenuStyle>
-       
-         
-         
+
+
+
       </Popover>
 
-   
+
 </div>
-    
+
   );
 
-   
+
 }
 
 export default SimpleMenu

@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 
 
   const ReviewPage = ({ data }) => {
-   
+
     return (
       <Layout>
         <PageTemplate
@@ -18,18 +18,18 @@ import PropTypes from 'prop-types'
           slug={data.markdownRemark.frontmatter.slug}
           html={data.markdownRemark.html}>
             <ReviewIndex category={data.markdownRemark.frontmatter.category} />
-        </PageTemplate>   
+        </PageTemplate>
       </Layout>
     )
   }
-  
+
   ReviewPage.propTypes = {
     data: PropTypes.shape({
       markdownRemark: PropTypes.shape({
         frontmatter: PropTypes.object,
       }),
     }),
-  
+
   }
 
 export default ReviewPage

@@ -46,7 +46,7 @@ class ServiceCatalog extends React.Component {
                         <Img fluid={page.frontmatter.featuredimage.childImageSharp.fluid} />
             <span>{page.frontmatter.title}</span>
           </GridLink>
-         
+
           ))}
       </Area>
       </div>
@@ -89,7 +89,7 @@ export default () => (
         }
       }
     }
-    
+
     `}
     render={(data, count) => <ServiceCatalog data={data} count={count} />}
   />

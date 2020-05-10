@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: theme.palette.primary.main,
       backgroundColor: theme.palette.primary.main,
       boxShadow: "6px 6px 10px 0px rgb(47, 54, 68, 0.4)",
-    }, 
+    },
     drawer: {
       [theme.breakpoints.up('sm')]: {
 
@@ -47,45 +47,45 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function ElevateAppBar(props: Props) {
   const classes = useStyles();
- 
+
 
   return (
- 
+
       <Paper elevation={3} >
-   
-        <AppBar 
+
+        <AppBar
           className={classes.drawerPaper}
           backgroundColor={theme.palette.primary.main}
           position="fixed">
 
-            <Grid container position="relative"  alignItems="flex-end"  justifyItems="center" >  
+            <Grid container position="relative"  alignItems="flex-end"  justifyItems="center" >
             <Grid item xs={1} />
                 <Grid item xs={2} >
-               
+
                   <SimpleMenu   />
-      
-                </Grid>   
+
+                </Grid>
                 <Grid item xs={1} />
                 <Grid item xs={4}>
-     
+
                       <LogoLarge />
-      
-                </Grid>     
+
+                </Grid>
                 <Grid item xs={1} />
                 <Grid item xs={2} >
                   <a href={`tel:${<PhoneNo />}`} rel="nofollow">
                      <PhoneLink />
                   </a>
-                </Grid>   
+                </Grid>
                 <Grid item xs={1} />
-             
+
               <Divider />
             </Grid>
           {/* </Toolbar> */}
-        </AppBar> 
-       
-  
+        </AppBar>
+
+
         </Paper>
- 
+
   );
 }

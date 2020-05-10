@@ -9,7 +9,7 @@ grid-column-start: 2;
 
 [theme.breakpoints.down('md')]: {
   grid-template-columns:  1fr;
-  grid-column-start: 1;  
+  grid-column-start: 1;
 }
 `
 

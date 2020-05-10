@@ -9,10 +9,10 @@ import UploadButtons from 'components/UploadButtons'
 
 const TextInputField = styled(TextField)`
   variant: outlined;
-  color: ${theme.palette.primary.contrastText}; 
+  color: ${theme.palette.primary.contrastText};
 `
 const SubmitButton = styled(Button)`
-  variant: outlined;  
+  variant: outlined;
   color: primary;
 `
 
@@ -105,10 +105,10 @@ export default class Uploader extends React.Component {
                         <input name="bot-field" onChange={this.handleChange} />
                       </label>
                     </div>
-                  
+
                   <FormControl className="control">
                     <Grid container spacing={2} >
-                      <Grid item xs >            
+                      <Grid item xs >
                         <InputField
                           label="Name"
                           className="input"
@@ -122,7 +122,7 @@ export default class Uploader extends React.Component {
                       <Grid item xs={2} >
                         <br />
                       </Grid>
-                      <Grid item xs >            
+                      <Grid item xs >
                         <InputField
                             label="Location"
                             className="input"
@@ -138,7 +138,7 @@ export default class Uploader extends React.Component {
                       </Grid>
                       <Grid item  xs={12}>
                       <UploadButtons
-                            label="file" 
+                            label="file"
                           className="file-input"
                           type="file"
                           name="attachment"
@@ -149,12 +149,12 @@ export default class Uploader extends React.Component {
                         <InputField  label="Message" fullWidth placeholder="Please enter your message here " id="message-input" multiline rows="3" size="large" padding="1rem" />
                       </Grid>
               <br />
-               
-    
+
+
                       <Grid item xs={12}>
                         <br />
                       </Grid>
-       
+
                       <Grid item xs={12} >
 
                       <SubmitButton  aria-label="Submit" variant="contained" color="primary">Submit</SubmitButton>
@@ -165,10 +165,9 @@ export default class Uploader extends React.Component {
                         </form>
                         </FormContainer>
 
- 
+
 
       </div>
     )
   }
 }
-

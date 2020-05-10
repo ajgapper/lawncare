@@ -4,13 +4,13 @@ import SEO from './SEO'
 import PropTypes from 'prop-types'
 import PageContent from './PageContent'
 
-export const PageTemplate = ({  
+export const PageTemplate = ({
     children,
     featuredimage,
     title,
     slug,
     location,
-    html, 
+    html,
   }) =>  (
     <div >
           <SEO  pathname={slug}
@@ -27,7 +27,7 @@ export const PageTemplate = ({
     </div>
   )
 
-  export default PageTemplate 
+  export default PageTemplate
 
 PageTemplate.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),

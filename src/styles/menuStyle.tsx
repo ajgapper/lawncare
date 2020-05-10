@@ -26,4 +26,3 @@ font-weight: ${theme.typography.h5.fontWeight};
 `
 
 export default MenuStyle
-

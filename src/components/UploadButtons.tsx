@@ -30,7 +30,7 @@ export default function UploadButtons() {
       />
       <label htmlFor="contained-button-file">
         <Button variant="contained" color="primary" component="span" startIcon={ <PhotoCamera />}>
-       Upload 
+       Upload
         </Button>
       </label>
       <input accept="image/*" className={classes.input} id="icon-button-file" type="file" />

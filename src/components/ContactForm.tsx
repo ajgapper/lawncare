@@ -24,10 +24,10 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const TextInputField = styled(TextField)`
   variant: outlined;
-  color: ${theme.palette.primary.contrastText}; 
+  color: ${theme.palette.primary.contrastText};
 `
 const SendMessageButton = styled(Button)`
-  variant: outlined;  
+  variant: outlined;
   color: primary;
 `
 
@@ -54,7 +54,7 @@ type PageProps = {
   data: {
         id: string
         excerpt: string
-        html: markdown 
+        html: markdown
         frontmatter: {
           title: string
           templateKey: string
@@ -68,26 +68,26 @@ type PageProps = {
 
 class ContactForm extends React.Component {
     render() {
-            
+
         return (
-      
+
             <FormContainer >
                 <form size='large' name="contact" method="POST" data-netlify="true" data-netlify-honeypot="botfield ">
                     <FormControl>
                         <Grid container  >
                             <Grid item xs={7} ><InputField fullWidth label="Name" id="name-input"   /></Grid>
                             <Grid item xs={7} ><InputField fullWidth label="Tel No:" id="telephone-number-input" /></Grid>
-                        
+
                             <Grid item xs={12} ><InputField fullWidth label="Address"  id="address-input" size="large"  /></Grid>
                             <Grid item xs={7}><InputField fullWidth label="Post Code" id="postcode-input"  /></Grid>
-                        
+
                             <Grid item xs={7}><InputField fullWidth label="Email" id="email-input"   /></Grid>
-                            </Grid>  
+                            </Grid>
 
                             <Grid item  ><InputField  label="Message" fullWidth placeholder="Please enter your message here " id="message-input" multiline rows="3" size="large" /></Grid>
                             <Grid container spacing={1}>
                             <Grid item xs={12}><br /></Grid>
-                        
+
                             <br />
                             <Grid item xs={12}><SendMessageButton  aria-label="Send message button" variant="contained" color="primary">Send Message</SendMessageButton></Grid>
                             <br />
@@ -102,7 +102,7 @@ class ContactForm extends React.Component {
 export default () => (
     <StaticQuery
       query={graphql`
-  query ContactForm  { 
+  query ContactForm  {
  markdownRemark(frontmatter: {templateKey: {eq: "contact"}})  {
     frontmatter {
       slug

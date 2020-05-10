@@ -33,14 +33,14 @@ class FAQIndex extends React.Component {
         <List>
         {faqs &&
           faqs.map(({ node: faq }) => (
-         <Link key={faq.frontmatter.slug} to={faq.frontmatter.slug} aria-label={`Frequently Asked Questions "${faq.frontmatter.title}"`}>     
+         <Link key={faq.frontmatter.slug} to={faq.frontmatter.slug} aria-label={`Frequently Asked Questions "${faq.frontmatter.title}"`}>
             <span><h5 >Q. {faq.frontmatter.title}</h5>
             <h5>{faq.excerpt}</h5> </span>
           </Link>
-         
+
           ))}
       </List>
-      
+
     )
   }
 }
@@ -59,12 +59,12 @@ export default () => (
               title
               templateKey
               visible
-          
+
             }
           }
         }
       }
-    }  
+    }
     `}
     render={(data, count) => <FAQIndex data={data} count={count} />}
   />
