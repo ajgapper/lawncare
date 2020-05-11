@@ -13,7 +13,7 @@ export const gridImageMobile = graphql`
       }
     }
   }
- 
+
 
 `
 
@@ -28,7 +28,7 @@ export const gridImageDesktop = graphql`
       }
     }
   }
- 
+
 
 `
 

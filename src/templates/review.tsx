@@ -5,7 +5,7 @@ import PageTemplate from '../components/PageTemplate'
 import PropTypes from 'prop-types'
 
   const ReviewPage = ({ data }) => {
-   
+
     return (
         <PageTemplate
           featuredimage={data.markdownRemark.frontmatter.bannerdesktop.childImageSharp.fluid}
@@ -17,17 +17,17 @@ import PropTypes from 'prop-types'
           slug={data.markdownRemark.frontmatter.slug}
           html={data.markdownRemark.html}>
             <ReviewIndex category={data.markdownRemark.frontmatter.category} />
-        </PageTemplate>   
+        </PageTemplate>
     )
   }
-  
+
   ReviewPage.propTypes = {
     data: PropTypes.shape({
       markdownRemark: PropTypes.shape({
         frontmatter: PropTypes.object,
       }),
     }),
-  
+
   }
 
 export default ReviewPage

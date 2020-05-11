@@ -26,7 +26,7 @@ const PermanentDrawerLeft = ({ children, color }: PermanentDrawerLeftProps) => {
           <IconButtonBar />
           <Divider />
           <br />
-          <Nav href="https://www.gappsapps.co.uk" 
+          <Nav href="https://www.gappsapps.co.uk"
           rel="nofollow">
             <ListItem button  aria-label="Link to the developer of this website Gappsapps" >
               <Gappsapps />

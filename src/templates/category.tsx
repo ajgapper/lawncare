@@ -16,7 +16,7 @@ export const Categories = ({ data }) => {
         slug={data.markdownRemark.frontmatter.slug}
         html={data.markdownRemark.html}
        >
-          
+
             <CategoryIndex  category={data.markdownRemark.frontmatter.category}/>
             <Link to="/categories">All categories</Link>
       </PageTemplate>
@@ -95,5 +95,5 @@ export const pageQuery = graphql`
     }
   }
 
-  
+
 `

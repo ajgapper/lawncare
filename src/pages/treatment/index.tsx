@@ -16,7 +16,7 @@ export const Treatments = ({ data }) => {
         slug={data.markdownRemark.frontmatter.slug}
         html={data.markdownRemark.html}>
             <TreatmentIndex />
-            </PageTemplate>   
+            </PageTemplate>
   )
 }
 
@@ -33,7 +33,7 @@ Treatments.propTypes = {
 export default Treatments
 
 export const query = graphql`query TreatmentHeaderPage {
- 
+
   site {
     siteMetadata {
       title

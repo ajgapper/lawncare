@@ -42,7 +42,7 @@ class CategoryIndex extends React.Component {
                   </List>
                 ))}
            </Area>
-      
+
       )
     }
   }

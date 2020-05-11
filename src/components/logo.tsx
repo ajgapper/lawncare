@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 
 const Logo = () => (
- 
+
     <Link to="/" aria-label="Home Page">
       <svg width="275px" height="275px" viewBox="0 0 512 512"  >
             <g id="lawns-matter-logo-colour" transform="translate(29.200000, 105.750000)">

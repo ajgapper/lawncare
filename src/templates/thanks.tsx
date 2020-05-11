@@ -16,7 +16,7 @@ export const ThanksPage = ({ data }) => {
         slug={data.markdownRemark.frontmatter.slug}
         html={data.markdownRemark.html}
        >
-    
+
         <ThanksIndex  category={data.markdownRemark.frontmatter.category}/>
       </PageTemplate>
   )
