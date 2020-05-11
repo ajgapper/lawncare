@@ -14,7 +14,7 @@ const CategoryPage = ({
       siteMetadata: { title },
     },
   },
-  data, 
+  data,
   featuredimage,
   slug,
   html,
@@ -35,7 +35,7 @@ const CategoryPage = ({
                 </Link>
              </List>
           ))}
-        </List>      
+        </List>
     </PageTemplate>
 </div>
 )
@@ -99,5 +99,5 @@ export const pageQuery = graphql`
     }
   }
 
-  
+
 `

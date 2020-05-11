@@ -13,7 +13,7 @@ export const Services = ({ data }) => {
         slug={data.markdownRemark.frontmatter.slug}
         html={data.markdownRemark.html}>
             <ServiceCatalog   category={data.markdownRemark.frontmatter.category} />
-            </PageTemplate>   
+            </PageTemplate>
   )
 }
 
@@ -30,7 +30,7 @@ Services.propTypes = {
 export default Services
 
 export const query = graphql`query ServiceHeaderPage {
- 
+
   site {
     siteMetadata {
       title

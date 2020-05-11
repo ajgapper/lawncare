@@ -13,7 +13,7 @@ export const FaqHeaderPage = ({ data }) => {
         slug={data.markdownRemark.frontmatter.slug}
         html={data.markdownRemark.html}>
             <FAQIndex   category={data.markdownRemark.frontmatter.category} />
-            </PageTemplate>   
+            </PageTemplate>
   )
 }
 

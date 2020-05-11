@@ -30,12 +30,12 @@ class PageIndex extends React.Component {
 
     const { data } = this.props
     const { edges: pages } = data.allMarkdownRemark
-    
+
     return (
         <Area>
         {pages &&
           pages.map(({ node: page }) => (
-      
+
          <GridLink key={page.frontmatter.slug} to={page.frontmatter.slug} aria-label={`View page "${page.frontmatter.title}"`}>
             <Img fluid={page.frontmatter.standardimage.childImageSharp.fluid} />
            <span>{page.frontmatter.title}</span>

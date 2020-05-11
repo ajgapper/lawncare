@@ -6,7 +6,7 @@ import FormPageTemplate from '../components/FormPageTemplate'
 
 
  export const Upload = ({ data }) => {
-  
+
   return (
       <FormPageTemplate
         featuredimage={data.markdownRemark.frontmatter.standardimage.childImageSharp.fluid}
@@ -32,7 +32,7 @@ export default Upload
 
 export const query = graphql`
 
-  query Upload  { 
+  query Upload  {
  markdownRemark(frontmatter: {templateKey: {eq: "upload"}})  {
     frontmatter {
       slug

@@ -13,7 +13,7 @@ export const Project = ({ data }) => {
         slug={data.markdownRemark.frontmatter.slug}
         html={data.markdownRemark.html}>
            <ProjectIndex   />
-        </PageTemplate>   
+        </PageTemplate>
   )
 }
 

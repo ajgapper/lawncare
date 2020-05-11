@@ -13,7 +13,7 @@ export const Service = ({ data }) => {
         slug={data.markdownRemark.frontmatter.slug}
         html={data.markdownRemark.html}>
            <ServiceCatalog   category={data.markdownRemark.frontmatter.category} />
-        </PageTemplate>   
+        </PageTemplate>
   )
 }
 

@@ -40,10 +40,10 @@ class BlogIndex extends React.Component {
                         <Img fluid={post.frontmatter.standardimage.childImageSharp.fluid} />
             <span>{post.frontmatter.title}</span>
           </GridLink>
-         
+
           ))}
       </Area>
-      
+
     )
   }
 }
@@ -65,7 +65,7 @@ export default () => (
           }
         }
       }
-    }  
+    }
     `}
     render={(data, count) => <BlogIndex data={data} count={count} />}
   />

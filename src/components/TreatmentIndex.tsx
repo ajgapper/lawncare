@@ -45,7 +45,7 @@ class TreatmentIndex extends React.Component {
     return (
 
       <div>
- 
+
         <Area>
         {treatments &&
           treatments.map(({ node: treatment }) => (
@@ -54,7 +54,7 @@ class TreatmentIndex extends React.Component {
                         <Img fluid={treatment.frontmatter.standardimage.childImageSharp.fluid} />
             <span>{treatment.frontmatter.title}</span>
           </GridLink>
-         
+
           ))}
       </Area>
       </div>
@@ -87,7 +87,7 @@ export default () => (
         }
       }
     }
-    
+
     `}
     render={(data, count) => <TreatmentIndex data={data} count={count} />}
   />
