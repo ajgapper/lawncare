@@ -71,7 +71,7 @@ const theme = createMuiTheme({
 			hint: 'rgba(0, 0, 0, 0.38)',
 			divider: 'rgba(0, 0, 0, 0.12)',
 			},
-		background:	{	
+		background:	{
 			paper: '#2f3644',
 			},
 		action: {
@@ -123,7 +123,7 @@ const theme = createMuiTheme({
 			fontWeightLight: '300',
 			fontWeightRegular: '400',
 			fontWeightMedium: '500',
-			fontWeightBold: '700',		
+			fontWeightBold: '700',
 			h1: {
 				fontFamily: 'Open Sans',
 				fontWeight: '700',
