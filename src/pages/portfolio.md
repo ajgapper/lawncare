@@ -11,6 +11,5 @@ alt: photo by Gustavo on Unsplash
 category:
   - project
 ---
-Take a look at the portfolio, showing the results of our servce. 
 
-
+Take a look at the portfolio, showing the results of our servce.
