@@ -11,5 +11,5 @@ alt: photo by Clarence Onimus on Unsplash
 category:
   - contact
 ---
-##### The upload is complete. Thank you for your photo.  ######
 
+##### The upload is complete. Thank you for your photo.
