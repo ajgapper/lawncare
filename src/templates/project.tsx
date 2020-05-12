@@ -15,7 +15,7 @@ export const Project = ({ data }) => {
         html={data.markdownRemark.html}>
     <h5>   Take a look at our portfolio, showing the results of our servce...  </h5>
            <ProjectIndex   />
-        </PageTemplate>   
+        </PageTemplate>
   )
 }
 

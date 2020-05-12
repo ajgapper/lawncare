@@ -40,20 +40,20 @@ export default class Contact extends React.Component {
 
 
     render() {
-            
+
         return (
           <div>
-      
+
             <FormContainer >
-                <form 
-                name="contact" 
-                method="POST" 
-                data-netlify="true" 
-                data-netlify-recaptcha="true" 
+                <form
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                data-netlify-recaptcha="true"
                 action="/contact/thanks/"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
-                
+
                 >
                     <input type="hidden" name="form-name" value="contact" />
                     <p hidden>
@@ -62,22 +62,22 @@ export default class Contact extends React.Component {
                            <input name="bot-field" onChange={this.handleChange} />
                         </label>
                       </p>
-    
+
                     <FormControl>
                         <Grid container  >
                             <Grid item xs={7} ><TextField fullWidth label="Name" id="name-input" onChange={this.handleChange}  /></Grid>
                             <Grid item xs={7} ><TextField fullWidth label="Tel No:" id="telephone-number-input"  onChange={this.handleChange}  /></Grid>
-                        
+
                             <Grid item xs={12} ><TextField fullWidth label="Address"  id="address-input" size="large"  onChange={this.handleChange} /></Grid>
                             <Grid item xs={7}><TextField fullWidth label="Post Code" id="postcode-input"  onChange={this.handleChange}  /></Grid>
-                        
+
                             <Grid item xs={7}><TextField fullWidth label="Email" id="email-input"  onChange={this.handleChange}   /></Grid>
-                            </Grid>  
+                            </Grid>
 
                             <Grid item  ><TextField  label="Message" fullWidth placeholder="Please enter your message here " id="message-input" multiline rows="3" size="large"  onChange={this.handleChange}  /></Grid>
                             <Grid container spacing={1}>
                             <Grid item xs={12}><br /></Grid>
-                        
+
                             <br />
                       <div data-netlify-recaptcha="true"></div>
                       <br />

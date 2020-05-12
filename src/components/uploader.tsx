@@ -47,14 +47,14 @@ export default class Uploader extends React.Component {
     return (
       <div>
           <FormContainer >
-                    <form size='large' 
-                    name="file-upload" 
-                    action="/contact/thanksphoto/" 
-                    data-netlify-recaptcha="true" 
+                    <form size='large'
+                    name="file-upload"
+                    action="/contact/thanksphoto/"
+                    data-netlify-recaptcha="true"
                     method="POST"
                     type="file"
-                    data-netlify="true" 
-                    data-netlify-honeypot="bot-field "  
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field "
                     onSubmit={this.handleSubmit}
                     >
                     <input type="hidden" name="form-name" value="file-upload" />
@@ -64,10 +64,10 @@ export default class Uploader extends React.Component {
                         <input name="bot-field" onChange={this.handleChange} />
                       </label>
                     </p>
-                  
+
                   <FormControl className="control">
                     <Grid container spacing={2} >
-                      <Grid item xs >            
+                      <Grid item xs >
                         <TextField
                           label="Name"
                           className="input"
@@ -81,7 +81,7 @@ export default class Uploader extends React.Component {
                       <Grid item xs={2} >
                         <br />
                       </Grid>
-                      <Grid item xs >            
+                      <Grid item xs >
                         <TextField
                             label="Location"
                             className="input"
@@ -97,7 +97,7 @@ export default class Uploader extends React.Component {
                       </Grid>
                       <Grid item  xs={12}>
                       <UploadButtons
-                            label="file" 
+                            label="file"
                           className="file-input"
                           type="file"
                           name="attachment"
@@ -108,14 +108,14 @@ export default class Uploader extends React.Component {
                         <TextField  label="Message" fullWidth placeholder="Please enter your message here " id="message-input" multiline rows="3" size="large" padding="1rem" />
                       </Grid>
               <br />
-               
-    
+
+
                       <Grid item xs={12}>
                         <br />
                       <div data-netlify-recaptcha="true"></div>
                       <br />
                       </Grid>
-       
+
                       <Grid item xs={12} >
 
                       <Button  aria-label="Submit"  type="submit" variant="contained" color="primary">Submit</Button>
@@ -126,10 +126,9 @@ export default class Uploader extends React.Component {
                         </form>
                         </FormContainer>
 
- 
+
 
       </div>
     )
   }
 }
-

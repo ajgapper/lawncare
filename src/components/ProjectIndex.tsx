@@ -29,12 +29,12 @@ class ProjectIndex extends React.Component {
 
     const { data } = this.props
     const { edges: projects } = data.allMarkdownRemark
-    
+
     return (
         <Area>
         {projects &&
           projects.map(({ node: project }) => (
-      
+
          <GridLink key={project.frontmatter.slug} to={project.frontmatter.slug} aria-label={`View project "${project.frontmatter.title}"`}>
             <Img fluid={project.frontmatter.gridimage.childImageSharp.fluid} />
            <span>{project.frontmatter.location}</span>

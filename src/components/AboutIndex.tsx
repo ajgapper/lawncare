@@ -30,12 +30,12 @@ class AboutIndex extends React.Component {
 
     const { data } = this.props
     const { edges: aboutus } = data.allMarkdownRemark
-    
+
     return (
         <Area>
         {aboutus &&
           aboutus.map(({ node: about }) => (
-      
+
          <GridLink key={about.frontmatter.slug} to={about.frontmatter.slug} aria-label={`View about "${about.frontmatter.title}"`}>
             <Img fluid={about.frontmatter.gridimage.childImageSharp.fluid} />
            <span>{about.frontmatter.title}</span>
