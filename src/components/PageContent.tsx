@@ -10,13 +10,13 @@ import Content from '../styles/contentStyle'
 import theme from '../gatsby-theme-material-ui-top-layout/theme'
 import List from 'styles/listStyle'
 
-export const PageContent = ({  
+export const PageContent = ({
     children,
     featuredimage,
     title,
     slug,
     location,
-    html, 
+    html,
   }) =>  (
     <div >
     <Content bg={theme.palette.primary.main} >
@@ -25,13 +25,13 @@ export const PageContent = ({
             <PageTitle > {title}  </PageTitle>
                 <Description >
                <h6>  <span dangerouslySetInnerHTML={{ __html: html }} ></span>  <Box>  {location}</Box></h6>
-                   
+
                         <Box>
                         {children}
                         </Box>
                 </Description>
                   <ContactUsButton />
-          </RaisedHeader> 
+          </RaisedHeader>
           </Content>
     </div>
   )

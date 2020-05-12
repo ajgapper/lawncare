@@ -14,7 +14,7 @@ export const About = ({ data }) => {
         location={data.markdownRemark.frontmatter.location}
         html={data.markdownRemark.html}>
            <AboutIndex   category={data.markdownRemark.frontmatter.category} />
-        </PageTemplate>   
+        </PageTemplate>
   )
 }
 

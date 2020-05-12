@@ -6,7 +6,7 @@ export default class AboutIndexPage extends React.Component {
   render() {
     return (
               <AboutIndex />
-   
+
     )
   }
 }

@@ -35,7 +35,7 @@ class ServiceCatalog extends React.Component {
     return (
 
       <div>
- 
+
         <Area>
         {pages &&
           pages.map(({ node: page }) => (
@@ -44,7 +44,7 @@ class ServiceCatalog extends React.Component {
                         <Img fluid={page.frontmatter.gridimage.childImageSharp.fluid} />
             <span>{page.frontmatter.title}</span>
           </GridLink>
-         
+
           ))}
       </Area>
       </div>
@@ -80,7 +80,7 @@ export default () => (
         }
       }
     }
-    
+
     `}
     render={(data, count) => <ServiceCatalog data={data} count={count} />}
   />
