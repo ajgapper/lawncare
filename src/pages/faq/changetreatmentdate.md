@@ -12,4 +12,6 @@ category:
   - faq
 ---
 
-Yes, telephone us and we will arrange an alternative.    Each invoice has the date of your next regular treatment, so you will know when to expect us.  All we ask is to try and give us one weeks notice
+Yes, telephone us and we will arrange an alternative. Each invoice has the date
+of your next regular treatment, so you will know when to expect us. All we ask
+is to try and give us one weeks notice

@@ -13,5 +13,6 @@ category:
 created_time: "2018-03-29T19:38:59+0000"
 recommendation_type_positive: true
 ---
-"Really nice guy sorted my lawns out, good pricing, very professional, very reliable, highly recommend."
 
+"Really nice guy sorted my lawns out, good pricing, very professional, very
+reliable, highly recommend."

@@ -11,5 +11,5 @@ alt: photo by from Lawns Matter's Facebook page
 category:
   - service
 ---
-Disease control
 
+Disease control

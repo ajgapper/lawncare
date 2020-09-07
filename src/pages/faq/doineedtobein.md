@@ -1,7 +1,7 @@
 ---
 templateKey: faq
 slug: /faq/doineedtobein
-title:  Do I need to be in when the lawn is being treated?
+title: Do I need to be in when the lawn is being treated?
 sortorder: 50
 visible: true
 header: false
@@ -12,4 +12,5 @@ category:
   - faq
 ---
 
-No, and many of our customers are not, but please remember to leave your gate unlocked so we can gain access to the lawn.
+No, and many of our customers are not, but please remember to leave your gate
+unlocked so we can gain access to the lawn.

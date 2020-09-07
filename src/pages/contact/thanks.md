@@ -11,4 +11,5 @@ alt: photo by Aaron Burden on Unsplash
 category:
   - contact
 ---
-##### Thank you for your message. We usually respond within 3 working days. ######
+
+##### Thank you for your message. We usually respond within 3 working days.

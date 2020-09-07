@@ -11,5 +11,6 @@ alt: photo by Gustavo on Unsplash
 category:
   - project
 ---
-We are proud of the service that we provide and invite you to look at some of the beautiful lawns that we have created. 
 
+We are proud of the service that we provide and invite you to look at some of
+the beautiful lawns that we have created.
